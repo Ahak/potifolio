@@ -1,0 +1,83 @@
+body{
+    margin: 0%;
+}
+.navbar{
+    background-color: rgb(24, 2, 74);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0px 40px 0px 40px;
+    height: 62px;
+    font-family:  Helvetica;
+}
+.navbar .navhd h1{
+    margin: 0%;
+    color: rgb(169, 167, 167);
+    padding: 10px;
+}
+.navbar .nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2px 12px 2px 12px;
+    margin: 0%;
+}
+.navbar .nav li a{
+    color: rgb(172, 169, 169);
+    text-decoration: none;
+    font-family:  Helvetica;
+    
+}
+.navbar .nav li a:hover{
+    color: rgb(242, 236, 230);
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: 0.5s ease-out;
+    font-family:  Helvetica;
+}
+.header h1{
+    text-align: center;
+}
+.graphic h2{
+    text-align: center;
+    font-size: 44px;
+}
+.contener{
+    display:flex ;
+    gap: 20px;
+    justify-content: space-around;
+    margin: 12px;
+    
+
+}
+.games h2{
+    text-align: center;
+    font-size: 44px;
+
+}
+.games .card{
+    box-shadow: 0px 2px 20px 0px;
+    width: 300px;
+    height: 480px;
+    border-radius: 24px ;
+    
+
+}
+.games .card img{
+    width: 300px;
+    height: 400px;
+    border-radius: 24px 24px 0px 0px;
+    
+   
+
+}
+.graphic .card img{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    box-shadow: 0px 2px 12px 0px;
+   
+
+}
+h3{
+    text-align: center;
+}
