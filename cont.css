@@ -1,0 +1,105 @@
+body{
+    margin: 0%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+.navbar{
+    background-color: rgb(24, 2, 74);
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0%;
+    padding: 0px 40px 0px 40px;
+    height: 62px;
+    font-family:  Helvetica;
+}
+.navbar .navhd h1{
+    margin: 0%;
+    color: rgb(169, 167, 167);
+    padding: 10px;
+}
+.navbar .nav li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 2px 12px 2px 12px;
+    margin: 0%;
+}
+.navbar .nav li a{
+    color: rgb(172, 169, 169);
+    text-decoration: none;
+    font-family:  Helvetica;
+    
+}
+.navbar .nav li a:hover{
+    color: rgb(242, 236, 230);
+    text-decoration: underline;
+    text-transform: uppercase;
+    transition: 0.5s ease-out;
+    font-family:  Helvetica;
+}
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+}
+.contact .coinf{
+    background-color: rgb(24, 2, 74);
+    margin-bottom: 12px;
+    margin-top: 4px;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 22px;
+    color: antiquewhite;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coinf li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.coinf i{
+    margin: 8px;
+    gap: 4px;
+}
+.contact .coform{
+    background-color: rgb(24, 2, 74);
+    margin: 12px;
+    padding: 12px;
+    color: aliceblue;
+}
+input[type="text"]{
+    padding: 10px;
+    width: 425px;
+    border-radius: 6px;
+    
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#comment{
+    height: 250px;
+}
+input[type="text"]value{
+    text-align: left;
+}
+button{
+    padding: 14px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 78px;
+}
+.footer{
+    background-color: rgb(24, 2, 74);
+    margin-bottom: 0%;
+    padding: 40px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+}
+.footer a{
+    color: antiquewhite;
+}
